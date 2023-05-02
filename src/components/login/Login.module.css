@@ -1,0 +1,24 @@
+.formContainer {
+  background-color: rgb(185, 202, 216);
+  padding: 20px;
+  width: 500px;
+  margin-top: 10%;
+  margin-left: 35%;
+  border-radius: 20px;
+}
+
+input:focus{
+  outline: none;
+  border-color: rgb(241, 104, 89);
+  background: rgb(232, 96, 96);
+}
+.invalid{
+  border: 1px solid red;
+ 
+}
+.wrapper{
+  display: flex;
+  width: 400px;
+  margin-top: 30px;
+  justify-content: flex-end;
+}
